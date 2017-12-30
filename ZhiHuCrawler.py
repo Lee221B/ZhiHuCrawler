@@ -304,6 +304,5 @@ class ZhiHuCrawler:
                     return
 
 
-
 spider = ZhiHuCrawler('https://www.zhihu.com/topic/19551388')
 spider.crawlImages("https://www.zhihu.com", spider.startURL, spider.depth)
