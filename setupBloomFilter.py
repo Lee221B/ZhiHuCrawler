@@ -1,6 +1,7 @@
 # setup module for BloomFilter
 
 from distutils.core import  setup, Extension
+import builtins
 
 BloomFilter_module = Extension(name='_BloomFilter',
                                sources=['BloomFilter.cpp', 'BloomFilter_wrap.cxx'])
